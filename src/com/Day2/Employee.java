@@ -7,6 +7,23 @@ public class Employee {
 	int salary;
 	int deptno;
 	
+	/*Employee(int id, String empname, int sal, int dno){
+		empid = id;
+		this.empname = empname;
+		salary = sal;
+		deptno = dno;
+		
+	}*/
+	
+	
+	void setdata(int id, String empname, int sal, int dno) {
+		empid = id;
+		this.empname = empname;
+		salary = sal;
+		deptno = dno;
+		
+	}
+	
 	
 	void display() {
 		System.out.println(empid);
@@ -15,9 +32,13 @@ public class Employee {
 		System.out.println(deptno);
 	}
 	
+	
+	
 	public static void main(String[] args) {
 		
-		Employee emp1 = new Employee();
+		
+		//Assigning values to class variables using object
+		/*Employee emp1 = new Employee();
 		
 		emp1.empid = 101;
 		emp1.empname = "Unknown";
@@ -31,6 +52,22 @@ public class Employee {
 		emp2.salary = 165000;
 		emp2.deptno = 20;
 		emp2.display();
+		
+		
+		//Assigning values to class variables using constructor
+		
+		Employee emp3 = new Employee(101, "Shiva", 100000, 30);
+		emp3.display();
+		
+		Employee emp4 = new Employee(105, "ShivaKumar", 200000, 40);
+		emp4.display();*/
+		
+		
+		//Assigning values to class variables using method
+		
+		Employee emp5 = new Employee();
+		emp5.setdata(106, "Roja", 10000, 10);
+		emp5.display();
 	}
 
 }

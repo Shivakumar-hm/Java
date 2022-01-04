@@ -29,7 +29,7 @@ public class stringMethods {
 		System.out.println(s.substring(5,7));
 		System.out.println(s.replace('e', 'a'));
 		System.out.println(s.replace("come", "kame"));
-		System.out.println();
+		System.out.println(s1.length());
 
 
 

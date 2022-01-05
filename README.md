@@ -280,26 +280,30 @@ Types:
 
 Method Overriding :
 -------------------
+Re-define the same method form parent class into child class.
+
 
 	class A {
-	void m1(){
-	code;
-	}
-	code;
-	code;
+		void m1(){
+		code;
+		}
+		code;
+		code;
 	}
 
 	class B extends A {
-	void m1() {
-	code;
-	}
-	code;
-	code;
+		void m1() {
+		code;
+		}
+		code;
+		code;
 	}
 
 	public class MethodOverloading {
 	public static void main(String[] args){
 
-	A aobj = new aobj();
-	aobj.m1();  
+		A aobj = new aobj();
+		aobj.m1();  
+		}
+	}	
 

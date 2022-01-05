@@ -114,5 +114,41 @@ example:
 	Employee ----> class name
 	emp1 --------> reference variable of an object 
 	Employee() --> instantiation
+	
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Method Overloading:
+-------------------
+
+A class contains more than one method with the same name is called Method Overloading.
+
+	class Test{
+		void m1(int a, int b) {
+		//code
+		//code
+		}
+		
+		void m1(int x, int y, int z) {
+		//code
+		//code
+		}
+		
+		void m1(int a, double b) {
+		//code
+		//code
+		}
+	}
+	
+	Test t = new Test();
+	t.m1();
+
+1. Number of Parameters
+2. Order of Parameters
+3. datatype of Parameters
+
+
+Constructor Overloading:
+------------------------
+
+A class contains more than one constructor is called Constructor Overloading.
 

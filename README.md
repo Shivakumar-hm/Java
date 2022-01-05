@@ -184,14 +184,14 @@ Example:
 		}
 		
 		void display() {
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(c);
+			System.out.println(a);
+			System.out.println(b);
+			System.out.println(c);
 		}
 		
 		public static void main(String[] args) {
-		conOverloading con2 = new conOverloading(100, 200);
-		con2.display();
+			conOverloading con2 = new conOverloading(100, 200);
+			con2.display();
 		}
 
 	}

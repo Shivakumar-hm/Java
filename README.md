@@ -202,6 +202,9 @@ static Keyword:
 gernerally we can define a variable or method as static.
 1. static variables and methods are shared across all the objects.
 2. static variables and methods can directly access through class name.
+3. static methods can access only static stuff directly.
+4. static methods can access non-static stuff but using Object.
+5. non-static methods can access everything directly.
 
 		static int a;
 
@@ -211,4 +214,26 @@ gernerally we can define a variable or method as static.
 		}
 	
 What is the advantage of using stating keyword?
+
+
+System.out.println()
+---------------------
+
+		class Test{
+		static String s = "Welcome";
+		}
+		
+		Test.s.length();
+		
+		
+		class System{
+		static PrintStream out;
+		}
+		
+		System.out.println()
+		
+		System ---> class (pre-defined)
+		out ------> static keyword
+		println()-> method
+
 

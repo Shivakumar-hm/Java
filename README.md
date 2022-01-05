@@ -162,3 +162,36 @@ A class contains more than one constructor is called Constructor Overloading.
 Two types of Constructors
 1. Default Constructor.
 2. Parameterized Constructor.
+
+This keyword:
+------------
+
+when the external/ class variable and variable inside the constructor/method are same, we will use "this" keyword.
+
+Example:
+
+	public class conOverloading {
+	
+		int a;
+		int b;
+		double c;
+	
+		conOverloading(int a, int b){
+		
+			this.a = a;
+			this.b = b;
+		
+		}
+		
+		void display() {
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		}
+		
+		public static void main(String[] args) {
+		conOverloading con2 = new conOverloading(100, 200);
+		con2.display();
+		}
+
+	}

@@ -267,3 +267,12 @@ Acquiring methods and variables from parent class to child class is called Inher
 	code;
 	code;
 	}
+
+
+Types:
+--
+1. Single Inheritance 
+2. Multi level Inheritance 
+3. Multiple Inheritance (Using Interface)
+4. Hierarchical Inheritance 
+5. Hybrid Inheritance (Using Interface)

@@ -29,50 +29,39 @@ Example programs written for the following concepts
 OOPS concepts:
 ---------------
 
+ 
+
 Class : 
+-------
 
 A class is collection of variables and methods
-----------------------------------------------
 
 Syntax of a class
------------------
 
-public class className {
-//Methods 
-//Variables
-//Constructors
-}
+
+	public class className {
+	//Methods 
+	//Variables
+	//Constructors
+	}
 
 Example :
 
-public class Employee {
+     public class Employee {
   
-  int empid;                    //variables
-	String empname;
-	int salary;
-	int deptno;
+         	int empid;                 //variables
+	 	String empname;
+	 	int salary;
+	 	int deptno;
 	
 	
-	void display() {              // method
+     void display() {              // method
 		System.out.println(empid);
 		System.out.println(empname);
 		System.out.println(salary);
 		System.out.println(deptno);
-}
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Methods :
-
-A method is a piece of code which will perform certain task
-method should be part of a class
----------------------------
-Syntax of Method
-
-void m1() {
-//code
-//return 1;
-}
+		}
+	}
 
 How many ways we can initialize the values to class variables
 -------------------------------------------------------------
@@ -80,22 +69,41 @@ How many ways we can initialize the values to class variables
 2) Using Constructor
 3) Using Method
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Methods 
----------
+Methods :
+----------
+
+1. A method is a piece of code which will perform certain task
+
+2. Method should be part of a class
+
+Syntax of Method
+
+	void m1() {
+	//code
+	//return 1;
+	}
+
 1) A method takes Parameters 
 2) A method may not take parameters 
 3) A method returns some value
 4) A method may not return any value
+
+
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Objects :
 
-An object is an instance of class
-----------------------------
+
+Objects : 
+---------
+
+An object is an instance of a class.
 
 syntax of Object
------------------
+
 
 className objectName = new className();
 

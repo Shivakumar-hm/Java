@@ -247,3 +247,7 @@ JDK : Java Development Kit (full software includes JRE & JVM, used for developin
 JRE : Java Runtime Environment (internally has JVM, It provides environment to run/install java based applications.
 
 JVM : Java Virtual Machine (Responsible for executing Java programs).
+
+Inheritance :
+-------------
+

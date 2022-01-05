@@ -200,11 +200,15 @@ Example:
 static Keyword:
 ---------------
 gernerally we can define a variable or method as static.
+1. static variables and methods are shared across all the objects.
+2. static variables and methods can directly access through class name.
 
-	static int a;
+		static int a;
 
-	static void m1() {
-	//code;
-	//code;
-	}
+		static void m1() {
+		//code;
+		//code;
+		}
+	
 What is the advantage of using stating keyword?
+

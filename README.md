@@ -109,10 +109,10 @@ className objectName = new className();
 
 example:
 
-Employee emp1 = new Employee();
+	Employee emp1 = new Employee();
 
-Employee ----> class name
-emp1 --------> reference variable of an object 
-Employee() --> instantiation
+	Employee ----> class name
+	emp1 --------> reference variable of an object 
+	Employee() --> instantiation
 
 

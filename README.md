@@ -276,3 +276,30 @@ Types:
 3. Multiple Inheritance (Using Interface)
 4. Hierarchical Inheritance 
 5. Hybrid Inheritance (Using Interface)
+
+
+Method Overriding :
+-------------------
+
+	class A {
+	void m1(){
+	code;
+	}
+	code;
+	code;
+	}
+
+	class B extends A {
+	void m1() {
+	code;
+	}
+	code;
+	code;
+	}
+
+	public class MethodOverloading {
+	public static void main(String[] args){
+
+	A aobj = new aobj();
+	aobj.m1();  
+

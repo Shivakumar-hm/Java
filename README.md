@@ -159,3 +159,6 @@ A class contains more than one constructor is called Constructor Overloading.
 5. Constructor will take the Parameters (Just like a method).
 6. Constructor is used for initialzing the value.
 
+Two types of Constructors
+1. Default Constructor.
+2. Parameterized Constructor.

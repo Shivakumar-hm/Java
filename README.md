@@ -251,3 +251,19 @@ JVM : Java Virtual Machine (Responsible for executing Java programs).
 Inheritance :
 -------------
 
+Acquiring methods and variables from parent class to child class is called Inheritance.
+
+class A{                  // Parent class/ Super class / Base class
+code;
+code;
+}
+
+class B extends A{        // Child class/ Sub class/ derived class
+code;
+code;
+}
+
+class C extends B{        // Child class/ Sub class/ derived class
+code;
+code;
+}

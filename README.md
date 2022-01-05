@@ -163,7 +163,7 @@ Two types of Constructors
 1. Default Constructor.
 2. Parameterized Constructor.
 
-This keyword:
+this keyword:
 ------------
 
 when the external/ class variable and variable inside the constructor/method are same, we will use "this" keyword.
@@ -195,3 +195,16 @@ Example:
 		}
 
 	}
+
+
+static Keyword:
+---------------
+gernerally we can define a variable or method as static.
+
+	static int a;
+
+	static void m1() {
+	//code;
+	//code;
+	}
+What is the advantage of using stating keyword?

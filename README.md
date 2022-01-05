@@ -152,3 +152,10 @@ Constructor Overloading:
 
 A class contains more than one constructor is called Constructor Overloading.
 
+1. Constructor is special kind of method.
+2. Constructor name should be same as class name.
+3. Constructor will not return any value.
+4. Constructor will be invoked at the time of object creation (We no need to call the constructor explicitly).
+5. Constructor will take the Parameters (Just like a method).
+6. Constructor is used for initialzing the value.
+

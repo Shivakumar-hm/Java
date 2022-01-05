@@ -236,4 +236,14 @@ System.out.println()
 		out ------> static keyword
 		println()-> method
 
+public static void main(String[] args)
+--------------------------------------
 
+JDK, JRE & JVM:
+--------------
+
+JDK : Java Development Kit (full software includes JRE & JVM, used for developing java application/software).
+
+JRE : Java Runtime Environment (internally has JVM, It provides environment to run/install java based applications.
+
+JVM : Java Virtual Machine (Responsible for executing Java programs).

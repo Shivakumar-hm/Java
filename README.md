@@ -404,9 +404,9 @@ Exception is an event which will terminate the program unexpectedly.
     4. ArrayIndexOutofBoundException, etc..,
 
 
-try {
-//specify the statement which causes exception.
-}
-catch(Exception type) {
-//write the code
-}
+			try {
+			//specify the statement which causes exception.
+			}
+			catch(Exception type) {
+			//write the code
+			}

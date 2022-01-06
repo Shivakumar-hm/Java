@@ -307,3 +307,56 @@ Re-define the same method form parent class into child class.
 		}
 	}	
 
+final Keyword:
+--------------
+
+variable, method & class
+
+	final int a = 10;     //value of the variable is constant (we cannot change)
+
+	final void m1() {     //method we cannot override in the child class
+	code;
+	}
+
+	final class Test {    //class cannot be extended 
+	code;
+	}
+
+
+Interface:
+----------
+
+1.Blue print of class
+
+	interface TestInt {
+
+	//variables;
+	//methods//
+
+	}
+2.Interface contains only static and final variables (by default)
+3.In Interface by default methods are public.
+4.In interface methods are by default abstract.
+
+abstract: 
+---------
+A method have only definition but not implementation.
+
+void m1();
+
+interface TestInt {
+
+void m1();
+
+}
+
+class TestClass implements TestInt
+{
+void m1() {
+//implement the body;
+}
+}
+
+5. We cannot instansiate interface
+TestInt testobj = new TestInt();  //not valid
+TestInt testobj = new TestClass();  //valid

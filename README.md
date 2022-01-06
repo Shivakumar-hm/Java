@@ -391,7 +391,12 @@ Exception is an event which will terminate the program unexpectedly.
 2 types:
 
 1. Checked Exceptions. --> Exceptions which are identified by the java compiler.
-    Examples: IOException, FileNotFoundException, InterruptedException etc..,
-3. Unchecked Exceptions. --> Exceptions which are not identified by the java compiler.
-    Examples: ArithmeticException, NullPointerException, NumberFormatException, ArrayIndexOutofBoundException, etc..,
+    Examples: 1. IOException, 
+              2. FileNotFoundException, 
+              3. InterruptedException, etc..,
+3. Un-checked Exceptions. --> Exceptions which are not identified by the java compiler.
+    Examples: 1. ArithmeticException, 
+              2. NullPointerException, 
+              3. NumberFormatException, 
+              4. ArrayIndexOutofBoundException, etc..,
  

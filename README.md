@@ -364,15 +364,15 @@ void m1();
 
 Access modifiers:
 ----------------
-1. public 
-2. default
-3. private 
-4. protected
+1. public --> can be accessable everywhere.
+2. default --> only within the package but, with other classes withing the package.
+3. private --> Only within the class.
+4. protected --> accessible within the package and outside of the package but through inheritance.
 
 
 Multiple inheritance using interface :
 --
-
+Using interface
 
 Packages :
 --
@@ -382,3 +382,14 @@ collection of classes
 
 1. user defined.
 2. pre defined/default Packages --> import statement is used for using built-in packages.
+
+Exception Handling
+--
+
+Exception is an event which will terminate the program unexpectedly.
+
+2 types:
+
+1. Checked Exceptions. --> Exceptions which are identified by the java compiler.
+2. Unchecked Exceptions. --> Exceptions which are not identified by the java compiler.
+ 

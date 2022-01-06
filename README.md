@@ -391,12 +391,22 @@ Exception is an event which will terminate the program unexpectedly.
 2 types:
 
 1. Checked Exceptions. --> Exceptions which are identified by the java compiler.
-    Examples: 1. IOException, 
-              2. FileNotFoundException, 
-              3. InterruptedException, etc..,
-3. Un-checked Exceptions. --> Exceptions which are not identified by the java compiler.
-    Examples: 1. ArithmeticException, 
-              2. NullPointerException, 
-              3. NumberFormatException, 
-              4. ArrayIndexOutofBoundException, etc..,
- 
+    Examples: 
+    1. IOException, 
+    2. FileNotFoundException, 
+    3. InterruptedException, etc..,
+   
+2. Un-checked Exceptions. --> Exceptions which are not identified by the java compiler.
+    Examples:
+    1. ArithmeticException, 
+    2. NullPointerException, 
+    3. NumberFormatException, 
+    4. ArrayIndexOutofBoundException, etc..,
+
+
+try {
+//specify the statement which causes exception.
+}
+catch(Exception type) {
+//write the code
+}

@@ -410,3 +410,10 @@ Exception is an event which will terminate the program unexpectedly.
 			catch(Exception type) {
 			//write the code
 			}
+			finally {
+			
+			}
+
+1. Exception occurs, catch block handles, finally block also execute.
+2. Exception occurs, catch block not handles, finally block also execute.
+3. Exception not occurs, catch block will ignore, finally block also execute.

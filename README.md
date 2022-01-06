@@ -326,17 +326,17 @@ variable, method & class
 Interface:
 ----------
 
-1.Blue print of class
+1. Blue print of class
 
-	interface TestInt {
+		interface TestInt {
 
-	//variables;
-	//methods//
+		//variables;
+		//methods//
 
-	}
-2.Interface contains only static and final variables (by default)
-3.In Interface by default methods are public.
-4.In interface methods are by default abstract.
+		}
+2. Interface contains only static and final variables (by default)
+3. In Interface by default methods are public.
+4. In interface methods are by default abstract.
 
 abstract: 
 ---------
@@ -364,7 +364,11 @@ void m1();
 
 Access modifiers:
 ----------------
-1.public 
-2.default
-3.private 
-4.protected
+1. public 
+2. default
+3. private 
+4. protected
+
+
+Multiple inheritance using interface :
+--

@@ -372,3 +372,13 @@ Access modifiers:
 
 Multiple inheritance using interface :
 --
+
+
+Packages :
+--
+collection of classes 
+
+2 types:
+
+1. user defined.
+2. pre defined/default Packages --> import statement is used for using built-in packages.

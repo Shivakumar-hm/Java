@@ -344,18 +344,18 @@ A method have only definition but not implementation.
 
 void m1();
 
-interface TestInt {
+	interface TestInt {
 
-void m1();
+	void m1();
 
-}
+	}
 
-class TestClass implements TestInt
-{
-void m1() {
-//implement the body;
-}
-}
+	class TestClass implements TestInt
+	{
+	void m1() {
+	//implement the body;
+	}
+	}
 
 5. We cannot instansiate interface
 TestInt testobj = new TestInt();  //not valid

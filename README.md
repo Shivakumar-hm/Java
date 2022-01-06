@@ -417,3 +417,8 @@ Exception is an event which will terminate the program unexpectedly.
 1. Exception occurs, catch block handles, finally block also execute.
 2. Exception occurs, catch block not handles, finally block also execute.
 3. Exception not occurs, catch block will ignore, finally block also execute.
+
+there are two methods to handle exceptions 
+
+1. try ... catch block (handleing checked and un-checked exceptions).
+2. throws keyword (only for checked exceptions)

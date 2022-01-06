@@ -358,5 +358,13 @@ void m1();
 	}
 
 5. We cannot instansiate interface
-TestInt testobj = new TestInt();  //not valid
-TestInt testobj = new TestClass();  //valid
+	
+		TestInt testobj = new TestInt();  //not valid
+		TestInt testobj = new TestClass();  //valid
+
+Access modifiers:
+----------------
+public 
+default
+private 
+protected
